@@ -1,71 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Little Lemon</title>
-    </head>
-    <body>
-        <h1>Our menu</h1>
-        <h2>Falafel</h2>
-        <p>Chickpea, herbs and spices.</p>
-        <img src ="falafel.png" width="240" height ="135" alt="falafel"/>
-        
-        <h2>Pasta</h2>
-        <p>Lettuce, vegitables and mozzarella.</p>
-        <img src ="salad.png" width="240" height ="135" alt="salad"/>
-        <a href="location.html">Our location</a>
-        <br><br><br>
-        I <em>really</em> want ice cream.
-        <style>
-            div {
-               border: 1px solid black;
-               padding: 2px;
-            }
-         </style>
-         <div>
-            <div>
-               <p>This is a paragraph inside stylized divs</p>
+<head>
+    <title>Little Lemon</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <img src="logo.png" class="img-fluid">
+                </div>
             </div>
-         </div> 
-         <!--unorderdlist-->
-         <ul>
-            <li>Tea</li>
-            <li>Sugar</li>
-            <li>Milk</li>
-         </ul>
-         <!--orderdlist-->
-         <ol>
-            <li>Rocky</li>
-            <li>Rocky II</li>
-            <li>Rocky III</li>
-         </ol>
-         
-         <br>
-
-<!--Table-->
-        <style>
-            table,th,td{
-                border:1px solid black;
-                border-collapse: collapse;
-            }
-        </style>
-        <table>
-            <tr>
-                <th>Dish</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>Falafel </td>
-                <td>$10.00 </td>
-            </tr>
-            <tr>
-                <td>Pasta </td>
-                <td>$12.00 </td>
-            </tr>
-
-        </table>
-
-        
-
-
-    </body>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <h1>Our Menu</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h2>Falafel</h2>
+                <p>Chickpea, herbs, spices.</p>
+                <h2>Fried Calamari</h2>
+                <p>Squid, buttermilk.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2>Pasta Salad</h2>
+                <p>Lettuce, vegetables, mozzarella.</p>
+                <h2>Greek Salad</h2>
+                <p>Cucumbers, onion, feta cheese.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+</body>
 </html>
